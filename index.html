@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .img1 {
+        background-image: url(image1.png);
+        background-attachment: fixed;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .img2 {
+        background-image: url(image2.png);
+        background-attachment: fixed;
+        height: 400px;
+        background-position: end;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .img3 {
+        background-image: url(image3.png);
+        background-attachment: fixed;
+        height: 400px;
+        background-position: end;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .Flex-1{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin-bottom: -20px;
+      }
+
+      .Flex-2{
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin-bottom: -20px;
+      }
+
+      .Web_name-1{
+        /* border: 1px solid white; */
+        background-color: rgb(40,46,52,0.6);
+        color: white;
+        width: 395px;
+        text-align: center;
+        margin-top: 65px;
+        padding: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 2.2rem;
+      }
+
+      .Web_name-2{
+        /* border: 1px solid white; */
+        background-color: rgb(40,46,52,0.3);
+        
+        color: white;
+        width: 500px;
+        text-align: center;
+        margin-top: 65px;
+        padding: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 2.2rem;
+      }
+
+      /* .Inline{
+            display: inline-block;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 50%;
+    padding: 20px;
+    left: 40%;
+    text-align: center;
+    width: 211px;
+    font-size: 2rem;
+    } */
+
+      .Heading-1{
+        margin: 0px;
+        /* border: 3px solid blueviolet; */
+        text-align: center;
+        background-color: #e5e5e5;
+        padding: 25px 100px 50px 100px;
+      }
+
+      .Heading-2{
+        margin: 0px;
+        /* border: 3px solid blueviolet; */
+        text-align: center;
+        background-color: #282e34;
+        color: whitesmoke;
+        padding: 25px 100px 50px 100px;
+      }
+
+      .Division {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+
+      h1{
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="img1">
+      <div class="Flex-1"><div class="Web_name-1">Parallax website</div></div>
+      <div class="Heading-1">
+        <h1 class="Division">Section One</h1>
+        <p class="words">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          iure reprehenderit, quam aliquid hic ex, atque magni cupiditate
+          temporibus quas quidem qui. Tempore placeat magni excepturi, officiis
+          at dicta cumque repellendus quia alias voluptatum cum tempora veniam,
+          quis possimus vel natus, facere suscipit aspernatur! Laudantium
+          maiores possimus cumque natus vel, ullam tenetur sapiente molestias,
+          eum odio soluta fugiat numquam, maxime asperiores aspernatur suscipit
+          quaerat nisi labore! At possimus aspernatur nostrum, itaque aliquam
+          illum reprehenderit rerum repellat quas iste ratione et distinctio
+          labore deleniti veniam nihil. Suscipit quidem, accusantium consectetur
+          doloribus error libero, perspiciatis itaque saepe molestiae dolorum
+          magni minima corporis?
+        </p>
+      </div>
+      <div class="img2"><div class="Flex-2"><div class="Web_name-2">Explore Nature</div></div></div>
+      <div class="Heading-2">
+        <h1 class="Division">Section Two</h1>
+        <p class="words">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          iure reprehenderit, quam aliquid hic ex, atque magni cupiditate
+          temporibus quas quidem qui. Tempore placeat magni excepturi, officiis
+          at dicta cumque repellendus quia alias voluptatum cum tempora veniam,
+          quis possimus vel natus, facere suscipit aspernatur! Laudantium
+          maiores possimus cumque natus vel, ullam tenetur sapiente molestias,
+          eum odio soluta fugiat numquam, maxime asperiores aspernatur suscipit
+          quaerat nisi labore! At possimus aspernatur nostrum, itaque aliquam
+          illum reprehenderit rerum repellat quas iste ratione et distinctio
+          labore deleniti veniam nihil. Suscipit quidem, accusantium consectetur
+          doloribus error libero, perspiciatis itaque saepe molestiae dolorum
+          magni minima corporis?
+        </p>
+      </div>
+      <div class="img3"><div class="Flex-2"><div class="Web_name-2">Look deep into Nature</div></div></div>
+      <div class="Heading-2">
+        <h1 class="Division">Section Three</h1>
+        <p class="words">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          iure reprehenderit, quam aliquid hic ex, atque magni cupiditate
+          temporibus quas quidem qui. Tempore placeat magni excepturi, officiis
+          at dicta cumque repellendus quia alias voluptatum cum tempora veniam,
+          quis possimus vel natus, facere suscipit aspernatur! Laudantium
+          maiores possimus cumque natus vel, ullam tenetur sapiente molestias,
+          eum odio soluta fugiat numquam, maxime asperiores aspernatur suscipit
+          quaerat nisi labore! At possimus aspernatur nostrum, itaque aliquam
+          illum reprehenderit rerum repellat quas iste ratione et distinctio
+          labore deleniti veniam nihil. Suscipit quidem, accusantium consectetur
+          doloribus error libero, perspiciatis itaque saepe molestiae dolorum
+          magni minima corporis?
+        </p>
+      </div>
+      <div class="img1"><div class="Flex-1"><div class="Web_name-1">Sanidhya Ojha</div></div></div>
+    </section>
+  </body>
+</html>
